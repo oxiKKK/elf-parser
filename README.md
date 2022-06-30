@@ -4,11 +4,11 @@ An **Executable and linkable format (ELF)** is a file format used to store exetu
 For more information about the elf file format, you can read the **Executable and Linkable Format (ELF)** document: _https://www.cs.cmu.edu/afs/cs/academic/class/15213-f00/docs/elf.pdf_
 
 # :question: Why does this exist?
-I've personally developed this project as an utility for another project, that is eventually a reverse-engineering one. The ability to dump out or log various information stored inside and elf file such as symbols (function names, data or source files), sections and more, is crucial for projects like this, because it allows me to see everything that is stored inside the binary file in a somewhat organized way and thus allows me to see my progress in reverse-engineering it.
+I've personally developed this project as a utility for another project, that is eventually a reverse-engineering one. The ability to dump out or log various information stored inside and elf file such as symbols (function names, data or source files), sections and more, is crucial for projects like this, because it allows me to see everything that is stored inside the binary file in a somewhat organized way and thus allows me to see my progress in reverse-engineering it.
 
 # :hourglass_flowing_sand: Test & proof
 
-As a test I've included a log of the GoldSource engine's linux binary files. They're included under _logs\\_ directory. This information is totally free and you can use it however you want.
+As a test I've included a log of the GoldSource engine's linux binary files. They're included under _logs\\_ directory. This information is totally free, and you can use it however you want.
 
 # :bulb: Features
 
