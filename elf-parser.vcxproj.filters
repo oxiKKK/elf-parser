@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f61b8536-c0c1-40d7-aba6-f438f2737920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{51e0cc6e-6552-4514-a072-dea5dbc0b1d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\dwarf.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\dwarf2.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\elf.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\elf-em.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CCmdArgParser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CDwarfParser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CElfParser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CPrintf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CCmdArgParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CDwarfParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CElfParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPrintf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inc.cpp" />
+  </ItemGroup>
+</Project>
